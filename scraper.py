@@ -66,7 +66,7 @@ while Base_Url:
 with open('books.json', 'w', encoding='utf-8') as f:
     json.dump(booksList, f, ensure_ascii=False, indent=4)
     
-print("books.csv saved successfully!")
+print("books.json saved successfully!")
 
 # ------------------------------
 # Save data to CSV
